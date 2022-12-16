@@ -16,11 +16,9 @@ h3{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width: 40%;
-    gap: 10px; 
-    margin-top: 30px;
+    gap: 20px;  
 }
 .cards{
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     padding-left: 20px;
     padding-bottom: 0px;
     padding-top: 10px;
@@ -33,8 +31,42 @@ h3{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width: 1000px;
-    margin: auto;
+    margin-left: 200px;
 }
 #front>img{
     padding-right: 100px;
 }
+#front>h1{
+ margin-left: 100px;
+}
+#front>p{
+    margin-left: 100px;
+   }
+.cards{
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+      }
+      .cards:hover, .cards:focus, .cards:active {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+     box-shadow: rgba(201, 121, 241, 0.414) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+    #main0 img{
+        width: 100px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin: auto;
+    }
+    #marq{
+        display:grid
+        
+    }
+    marquee{
+        margin: auto;
+
+    }
